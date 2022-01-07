@@ -1,0 +1,18 @@
+<table class="table">
+    <tr>
+        <th> Image </th>
+        <th> Title  </th>
+        <th>  Description  </th>
+    </tr>
+    
+    <tr *ngFor="let news of mynews['articles']">
+        <td> <img width="100px" height="100px" src="{{news.urlToImage}}" />  </td>
+        <td> {{news.title}} </td>
+        <td>{{news.description}}</td>
+    </tr>
+    
+    
+    
+    
+    
+    </table>
